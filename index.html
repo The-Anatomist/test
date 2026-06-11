@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>CampusPulse Card — Premium Pitch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress"></div>
+
+<div id="stage">
+
+<!-- ── SLIDE 1: HERO ── -->
+<section class="slide slide-1 active">
+  <span class="slide-label"><span class="dot"></span>CampusPulse Card</span>
+  <span class="slide-num">01 / 17</span>
+  <div style="display:flex;align-items:center;gap:80px;width:100%;max-width:1100px">
+    <div style="flex:1">
+      <div class="row" style="justify-content:flex-start;margin-bottom:16px">
+        <span class="pill"><i class="fa-solid fa-bolt"></i> Hackathon 2025</span>
+        <span class="pill" style="background:#f0fdf4;color:#16a34a;border-color:#dcfce7"><i class="fa-solid fa-leaf"></i> Team InnovateX</span>
+      </div>
+      <h1 class="display" style="font-size:3.8rem;text-align:left;color:var(--text)">
+        <span class="accent-word">CampusPulse</span><br>Card
+      </h1>
+      <p style="font-size:1.4rem;font-weight:600;color:var(--gray-600);margin-top:12px;margin-bottom:28px;text-align:left">One Card. <span style="color:var(--blue-500)">One Tap.</span> A Smarter Campus.</p>
+      <div class="team-chips" style="justify-content:flex-start;display:flex;gap:10px;flex-wrap:wrap">
+        <div class="team-chip" style="background:var(--blue-50);border-color:var(--blue-100);color:var(--blue-700)"><i class="fa-solid fa-user" style="color:var(--blue-500)"></i>John Doe</div>
+        <div class="team-chip" style="background:var(--blue-50);border-color:var(--blue-100);color:var(--blue-700)"><i class="fa-solid fa-user" style="color:var(--blue-500)"></i>Jane Smith</div>
+        <div class="team-chip" style="background:var(--blue-50);border-color:var(--blue-100);color:var(--blue-700)"><i class="fa-solid fa-user" style="color:var(--blue-500)"></i>Alex Wang</div>
+      </div>
+    </div>
+    <div class="col" style="gap:20px">
+      <div class="nfc-card floating">
+        <div class="card-top">
+          <div class="card-logo">CAMPUS<span>PULSE</span> CARD</div>
+          <div class="card-chip"></div>
+        </div>
+        <div class="card-mid"><i class="fa-solid fa-wifi nfc-icon"></i> NFC Enabled</div>
+        <div class="card-bottom">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end">
+            <div>
+              <div class="card-name">STUDENT NAME</div>
+              <div class="card-school">Smart School · ID 2025-001</div>
+            </div>
+            <div style="width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0"><i class="fa-solid fa-school"></i></div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 2: PROBLEM ── -->
+<section class="slide slide-2">
+  <span class="slide-label"><span class="dot"></span>The Problem</span>
+  <span class="slide-num">02 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Current School <span class="accent-word">Challenges</span></h1>
+  <p class="sub mt8">Schools still rely on outdated, disconnected systems.</p>
+  <div class="problem-grid">
+    <div class="problem-card">
+      <div class="problem-icon-wrap" style="background:#fef3c7"><span style="font-size:26px">📋</span></div>
+      <h3>Manual Attendance</h3>
+      <p>Time-consuming roll calls produce inaccurate records that are hard to audit.</p>
+      <small style="background:#fef3c7;color:#92400e">⚠ Low Accuracy Risk</small>
+    </div>
+    <div class="problem-card">
+      <div class="problem-icon-wrap" style="background:#fee2e2"><span style="font-size:26px">💵</span></div>
+      <h3>Cash Payments</h3>
+      <p>Students carry cash — risk of loss or theft with no digital records.</p>
+      <small style="background:#fee2e2;color:#991b1b">🔴 High Security Risk</small>
+    </div>
+    <div class="problem-card">
+      <div class="problem-icon-wrap" style="background:#e0e7ff"><span style="font-size:26px">📚</span></div>
+      <h3>Library Management</h3>
+      <p>Manual book tracking, overdue items not monitored, fines hard to calculate.</p>
+      <small style="background:#ffedd5;color:#9a3412">📋 No Audit Trail</small>
+    </div>
+    <div class="problem-card">
+      <div class="problem-icon-wrap" style="background:#dcfce7"><span style="font-size:26px">⚽</span></div>
+      <h3>Sports Equipment</h3>
+      <p>No accountability for equipment loss, no borrowing history maintained.</p>
+      <small style="background:#f3e8ff;color:#6b21a8">⚡ Zero Accountability</small>
+    </div>
+  </div>
+  <div class="secure-banner mt20" style="background:var(--blue-50);border-color:var(--blue-100);color:var(--blue-600)">
+    <i class="fa-solid fa-circle-info" style="color:var(--blue-500)"></i>
+    No need to carry two separate cards; school ID card and Canteen Cards, but an all-in-one digital card that has even more features.
+  </div>
+</section>
+
+<!-- ── SLIDE 3: SOLUTION ── -->
+<section class="slide slide-3">
+  <span class="slide-label"><span class="dot"></span>Our Solution</span>
+  <span class="slide-num">03 / 17</span>
+  <div style="display:flex;align-items:center;gap:80px;width:100%;max-width:1000px">
+    <div style="flex:1">
+      <h1 class="heading" style="font-size:2.6rem;text-align:left">Our Solution:<br><span class="accent-word">CampusPulse Card</span></h1>
+      <p class="sub mt12 text-left">An NFC-powered smart student identity card connected to a centralized web platform.</p>
+      <ul class="feature-list mt24">
+        <li><div class="check"><i class="fa-solid fa-check"></i></div>Student Identification</li>
+        <li><div class="check"><i class="fa-solid fa-check"></i></div>Cashless Payments</li>
+        <li><div class="check"><i class="fa-solid fa-check"></i></div>Attendance Tracking</li>
+        <li><div class="check"><i class="fa-solid fa-check"></i></div>Library Services</li>
+        <li><div class="check"><i class="fa-solid fa-check"></i></div>Sports Equipment Management</li>
+        <li><div class="check"><i class="fa-solid fa-check"></i></div>Security &amp; Access Control</li>
+      </ul>
+    </div>
+    <div class="col" style="gap:24px">
+      <div class="nfc-card floating">
+        <div class="card-top">
+          <div class="card-logo">CAMPUS<span>PULSE</span> CARD</div>
+          <div class="card-chip"></div>
+        </div>
+        <div class="card-mid"><i class="fa-solid fa-wifi nfc-icon"></i> NFC Enabled</div>
+        <div class="card-bottom">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end">
+            <div>
+              <div class="card-name">STUDENT NAME</div>
+              <div class="card-school">Smart School · ID 2025-001</div>
+            </div>
+            <div style="width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0"><i class="fa-solid fa-school"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="gap:10px;flex-wrap:wrap;max-width:280px">
+        <span class="pill" style="font-size:11px"><i class="fa-solid fa-wifi"></i> NFC</span>
+        <span class="pill" style="font-size:11px"><i class="fa-solid fa-globe"></i> Web Platform</span>
+        <span class="pill" style="font-size:11px"><i class="fa-solid fa-shield-halved"></i> Secure</span>
+        <span class="pill" style="font-size:11px"><i class="fa-solid fa-clock"></i> Real-time</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 4: HOW IT WORKS (ANIMATED) ── -->
+<section class="slide slide-4">
+  <span class="slide-label"><span class="dot"></span>How It Works</span>
+  <span class="slide-num">04 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">How It <span class="accent-word">Works</span></h1>
+  <div class="how-steps" id="howSteps">
+    <div class="how-step" data-step="0">
+      <div class="how-dot"><i class="fa-solid fa-users"></i></div>
+      <div class="step-name">Parent Funds Account</div>
+      <p>Parents add funds securely online via M-Pesa</p>
+    </div>
+    <div class="how-step" data-step="1">
+      <div class="how-dot"><i class="fa-solid fa-wallet"></i></div>
+      <div class="step-name">Student Digital Wallet</div>
+      <p>Funds stored in student's card account</p>
+    </div>
+    <div class="how-step" data-step="2">
+      <div class="how-dot"><i class="fa-solid fa-credit-card"></i></div>
+      <div class="step-name">CampusPulse Card</div>
+      <p>Student taps NFC card at any reader</p>
+    </div>
+    <div class="how-step" data-step="3">
+      <div class="how-dot"><i class="fa-solid fa-wifi"></i></div>
+      <div class="step-name">NFC Reader</div>
+      <p>Reader captures and verifies card data</p>
+    </div>
+    <div class="how-step" data-step="4">
+      <div class="how-dot"><i class="fa-solid fa-globe"></i></div>
+      <div class="step-name">Web Platform</div>
+      <p>Data processed and logged in real-time</p>
+    </div>
+    <div class="how-step" data-step="5">
+      <div class="how-dot"><i class="fa-solid fa-database"></i></div>
+      <div class="step-name">Secure Database</div>
+      <p>Records stored safely with full audit trail</p>
+    </div>
+  </div>
+  <div class="secure-banner" style="margin-top:24px">
+    <i class="fa-solid fa-lock"></i>
+    Every transaction is secure, fast and traceable.
+  </div>
+  <button id="replayHowBtn" onclick="replayHowItWorks()" style="margin-top:16px;padding:10px 24px;background:var(--blue-50);border:1px solid var(--blue-100);color:var(--blue-600);border-radius:50px;font-size:13px;font-weight:700;cursor:pointer;font-family:var(--font-body);display:flex;align-items:center;gap:8px"><i class="fa-solid fa-rotate-right"></i> Replay Animation</button>
+</section>
+
+<!-- ── SLIDE 5: MARKET OPPORTUNITY ── -->
+<section class="slide slide-5-market" style="background:linear-gradient(145deg,#f0f7ff 0%,#dbeafe 60%,#c7d9ff 100%)">
+  <span class="slide-label"><span class="dot"></span>Market Opportunity</span>
+  <span class="slide-num">05 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Kenya's School <span class="accent-word">Market</span></h1>
+  <p class="sub mt8">A massive, underserved opportunity waiting to be digitised.</p>
+
+  <div class="market-stats-row">
+    <div class="market-stat-card">
+      <div class="market-stat-icon" style="background:#dbeafe"><i class="fa-solid fa-school" style="color:var(--blue-500)"></i></div>
+      <div class="market-count" id="mc1">0</div>
+      <div class="market-label">Registered Schools</div>
+    </div>
+    <div class="market-stat-card">
+      <div class="market-stat-icon" style="background:#dcfce7"><i class="fa-solid fa-user-graduate" style="color:#16a34a"></i></div>
+      <div class="market-count" id="mc2">0</div>
+      <div class="market-label">Students Enrolled</div>
+    </div>
+    <div class="market-stat-card">
+      <div class="market-stat-icon" style="background:#fef9c3"><i class="fa-solid fa-coins" style="color:#ca8a04"></i></div>
+      <div class="market-count" id="mc3">0</div>
+      <div class="market-label">Estimated Market Size</div>
+    </div>
+  </div>
+
+  <div class="market-chart-wrap">
+    <div class="market-chart-title">Market Penetration — Current State</div>
+    <div class="market-bar-row">
+      <div class="market-bar-label">Legacy Systems</div>
+      <div class="market-bar-track"><div class="market-bar-fill" style="--bar-w:78%;background:linear-gradient(90deg,#94a3b8,#64748b)"></div></div>
+      <div class="market-bar-pct">78%</div>
+    </div>
+    <div class="market-bar-row">
+      <div class="market-bar-label">Basic Canteen Cards</div>
+      <div class="market-bar-track"><div class="market-bar-fill" style="--bar-w:15%;background:linear-gradient(90deg,#60a5fa,var(--blue-500))"></div></div>
+      <div class="market-bar-pct">15%</div>
+    </div>
+    <div class="market-bar-row">
+      <div class="market-bar-label">Smart Solutions</div>
+      <div class="market-bar-track"><div class="market-bar-fill" style="--bar-w:7%;background:linear-gradient(90deg,var(--accent),#22c55e)"></div></div>
+      <div class="market-bar-pct" style="color:var(--blue-500);font-weight:800">7% ← We're here</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 6: BUSINESS MODEL ── -->
+<section class="slide slide-6-biz">
+  <span class="slide-label"><span class="dot"></span>Business Model</span>
+  <span class="slide-num">06 / 17</span>
+  <h1 class="heading" style="font-size:2.2rem">How We <span class="accent-word">Make Money</span></h1>
+  <p class="sub mt8" style="font-size:13px">Two revenue streams. Zero cost to the school's own budget.</p>
+
+  <div class="biz-pillars">
+    <div class="biz-card">
+      <div class="biz-card-header">
+        <div class="biz-icon" style="background:#dbeafe"><i class="fa-solid fa-credit-card" style="color:var(--blue-500)"></i></div>
+        <div>
+          <div class="biz-type">One-Time Parent Fee</div>
+          <div class="biz-title">The Physical Card</div>
+        </div>
+      </div>
+      <div class="biz-detail-row"><span>Manufacturing cost</span><strong>KSh 120 – 180</strong></div>
+      <div class="biz-detail-row"><span>Retail price to parent</span><strong style="color:var(--blue-600)">KSh 400</strong></div>
+      <div class="biz-badge green-badge">KSh 220–280 margin per card</div>
+      <p class="biz-sub">Charged by school as part of admission fee — costs the school KSh 0</p>
+    </div>
+    <div class="biz-card biz-card-highlight">
+      <div class="biz-card-header">
+        <div class="biz-icon" style="background:#e0e7ff"><i class="fa-solid fa-cloud" style="color:#6366f1"></i></div>
+        <div>
+          <div class="biz-type">Recurring Revenue</div>
+          <div class="biz-title">SaaS Platform Fee</div>
+        </div>
+      </div>
+      <div class="biz-detail-row"><span>Per student, per term</span><strong style="color:var(--blue-600)">KSh 200</strong></div>
+      <div class="biz-detail-row"><span>Example (1,000 students)</span><strong>= KSh 200,000/term</strong></div>
+      <div class="biz-badge blue-badge">KSh 600,000/year per school</div>
+      <p class="biz-sub">Free setup with a 2-year contract — zero barrier to entry</p>
+    </div>
+  </div>
+
+  <div class="roi-strip">
+    <div class="roi-strip-title">Why Principals Say Yes — The Card Pays for Itself</div>
+    <div class="roi-cols">
+      <div class="roi-col">
+        <i class="fa-solid fa-utensils" style="color:#ca8a04"></i>
+        <strong>Food Waste Savings</strong>
+        <span>10–15% reduction in canteen waste = KSh 100,000–150,000 saved per term</span>
+      </div>
+      <div class="roi-col">
+        <i class="fa-solid fa-piggy-bank" style="color:#16a34a"></i>
+        <strong>Financial Float</strong>
+        <span>KSh 3,000 avg top-up × 1,000 students = KSh 3M in school account on Day 1</span>
+      </div>
+      <div class="roi-col">
+        <i class="fa-solid fa-clock" style="color:var(--blue-500)"></i>
+        <strong>Admin Time Saved</strong>
+        <span>~30 hrs/month of manual paperwork eliminated across all departments</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="lost-card-banner">
+    <i class="fa-solid fa-rotate" style="font-size:18px;color:#92400e;flex-shrink:0"></i>
+    <span><strong>Lost Card Replacement:</strong> Parent pays KSh 500 · Our cost KSh 150 · <strong style="color:#92400e">Profit KSh 350 per card</strong> · Balance securely transferred to new chip</span>
+  </div>
+
+  <div class="biz-projection">
+    Projected per school (1,000 students): <strong>KSh 200,000/term</strong> · <strong>KSh 600,000/year</strong> · Setup Fee: <strong>Free on 2-year contract</strong>
+  </div>
+</section>
+
+<!-- ── SLIDE 7: STUDENT JOURNEY ── -->
+<section class="slide slide-5">
+  <span class="slide-label"><span class="dot"></span>Student Journey</span>
+  <span class="slide-num">07 / 17</span>
+  <div class="journey-wrap">
+    <h1 class="heading" style="font-size:2.4rem;text-align:center">Student Journey</h1>
+    <p class="sub mt8 text-center">One Card. <span style="color:var(--blue-500);font-weight:700">Many Possibilities.</span></p>
+    <div class="journey-bar">
+      <div class="journey-step">
+        <div class="journey-time">08:00 AM</div>
+        <div class="journey-dot">🎒</div>
+        <div class="journey-title">Morning Arrival</div>
+        <ul class="journey-checks">
+          <li>Attendance recorded</li>
+        </ul>
+      </div>
+      <div class="journey-step">
+        <div class="journey-time">10:30 AM</div>
+        <div class="journey-dot">🍽️</div>
+        <div class="journey-title">Break Time</div>
+        <ul class="journey-checks">
+          <li>Buys snacks</li>
+          <li>Payment logged</li>
+        </ul>
+      </div>
+      <div class="journey-step">
+        <div class="journey-time">01:00 PM</div>
+        <div class="journey-dot">📚</div>
+        <div class="journey-title">Library Visit</div>
+        <ul class="journey-checks">
+          <li>Borrows a book</li>
+          <li>Loan recorded</li>
+        </ul>
+      </div>
+      <div class="journey-step">
+        <div class="journey-time">03:30 PM</div>
+        <div class="journey-dot">⚽</div>
+        <div class="journey-title">Sports Activity</div>
+        <ul class="journey-checks">
+          <li>Borrows equipment</li>
+          <li>Borrowing logged</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 6: PARENT EXPERIENCE ── -->
+<section class="slide slide-6">
+  <span class="slide-label"><span class="dot"></span>Parent Experience</span>
+  <span class="slide-num">08 / 17</span>
+  <div class="two-col">
+    <div>
+      <h1 class="heading" style="font-size:2.4rem">Parent Experience</h1>
+      <p class="sub mt8"><span style="color:var(--blue-500);font-weight:700">Stay Connected.</span> Stay Informed.</p>
+      <div class="feature-cards mt24">
+        <div class="feat-card">
+          <div class="feat-icon" style="background:#dbeafe"><i class="fa-solid fa-plus-circle" style="color:var(--blue-500)"></i></div>
+          <div><h4>Add Funds Remotely</h4><p>Add money to your child's wallet instantly from anywhere.</p></div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon" style="background:#fee2e2"><i class="fa-solid fa-sliders" style="color:#dc2626"></i></div>
+          <div><h4>Expenditure Limits</h4><p>Set absolute daily or dynamic structural card spend parameters.</p></div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon" style="background:#dcfce7"><i class="fa-solid fa-chart-line" style="color:#16a34a"></i></div>
+          <div><h4>Monitor Spending</h4><p>Track every transaction in real-time with detailed history.</p></div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon" style="background:#fef9c3"><i class="fa-solid fa-bell" style="color:#ca8a04"></i></div>
+          <div><h4>Receive Notifications</h4><p>Get instant alerts for attendance, payments, and borrowing.</p></div>
+        </div>
+      </div>
+      <button onclick="openParentDash()" style="margin-top:20px;padding:12px 24px;background:var(--blue-600);color:#fff;border:none;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;font-family:var(--font-body);display:flex;align-items:center;gap:8px"><i class="fa-solid fa-user-gear"></i> Open Parent Dashboard</button>
+    </div>
+    <div class="col">
+      <div class="phone-mockup">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <p style="font-size:12px;font-weight:700;color:var(--gray-800);margin-bottom:10px">Good Morning, Parent</p>
+          <div class="phone-balance">
+            <div class="lbl">BALANCE</div>
+            <div class="amt">KES 350.00</div>
+            <div style="margin-top:4px;font-size:10px;opacity:0.9">Daily Limit: KES 150.00</div>
+          </div>
+          <div class="phone-row"><span class="label">Attendance</span><span class="val" style="color:#22c55e">Present ✓</span></div>
+          <div class="phone-row"><span class="label">Lunch Payment</span><span class="val">KES 50</span></div>
+          <div class="phone-row"><span class="label">Book Borrowed</span><span class="val" style="color:var(--blue-500)">The Alchemist</span></div>
+          <div class="notif-list">
+            <div class="notif"><div class="n-title">📍 Attendance Recorded</div><div class="n-sub">08:00 AM — your child is present</div></div>
+            <div class="notif"><div class="n-title">💳 Balance Updated</div><div class="n-sub">KES 350 remaining</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 7: TEACHER DASHBOARD ── -->
+<section class="slide slide-7">
+  <span class="slide-label"><span class="dot"></span>Teacher Experience</span>
+  <span class="slide-num">09 / 17</span>
+  <div class="two-col">
+    <div>
+      <h1 class="heading" style="font-size:2.4rem">Teacher Experience</h1>
+      <p class="sub mt8"><span style="color:var(--blue-500);font-weight:700">Simplify Teaching.</span> Focus on Students.</p>
+      <div class="feature-cards mt24">
+        <div class="feat-card">
+          <div class="feat-icon" style="background:#dbeafe"><i class="fa-solid fa-check-double" style="color:var(--blue-500)"></i></div>
+          <div><h4>Automatic Attendance</h4><p>Students tap card and attendance is recorded instantly.</p></div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon" style="background:#dcfce7"><i class="fa-solid fa-chart-bar" style="color:#16a34a"></i></div>
+          <div><h4>Class Analytics</h4><p>View attendance statistics and trends over time.</p></div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon" style="background:#fef9c3"><i class="fa-solid fa-file-lines" style="color:#ca8a04"></i></div>
+          <div><h4>Attendance Reports</h4><p>Generate detailed reports in seconds, not hours.</p></div>
+        </div>
+      </div>
+      <button onclick="openDash()" style="margin-top:20px;padding:12px 24px;background:var(--blue-500);color:#fff;border:none;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;font-family:var(--font-body);display:flex;align-items:center;gap:8px"><i class="fa-solid fa-gauge"></i> Open Teacher Dashboard</button>
+    </div>
+    <div class="col" style="gap:16px">
+      <div style="background:#fff;border:1px solid var(--gray-100);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow);width:280px">
+        <h3 style="font-size:14px;font-weight:700;color:var(--gray-800);margin-bottom:16px">📊 Today's Overview</h3>
+        <div style="display:flex;gap:12px;margin-bottom:16px">
+          <div style="flex:1;background:var(--blue-50);border-radius:12px;padding:12px;text-align:center">
+            <div style="font-size:28px;font-weight:800;color:var(--blue-600)">38</div>
+            <div style="font-size:11px;color:var(--gray-600);font-weight:500">Present</div>
+          </div>
+          <div style="flex:1;background:#fee2e2;border-radius:12px;padding:12px;text-align:center">
+            <div style="font-size:28px;font-weight:800;color:#dc2626">2</div>
+            <div style="font-size:11px;color:var(--gray-600);font-weight:500">Absent</div>
+          </div>
+        </div>
+        <div style="background:var(--gray-50);border-radius:12px;padding:12px;text-align:center">
+          <div style="font-size:11px;color:var(--gray-600);margin-bottom:4px">Attendance Rate</div>
+          <div style="font-size:32px;font-weight:800;color:#22c55e">95%</div>
+          <div style="height:8px;background:var(--gray-200);border-radius:4px;margin-top:8px;overflow:hidden"><div style="width:95%;height:100%;background:linear-gradient(90deg,#22c55e,#16a34a);border-radius:4px"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 8: LIBRARY & SPORTS ── -->
+<section class="slide slide-8">
+  <span class="slide-label"><span class="dot"></span>Library &amp; Sports</span>
+  <span class="slide-num">10 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Library &amp; Sports Management</h1>
+  <p class="sub mt8"><span style="color:var(--blue-500);font-weight:700">Track. Manage. Simplify.</span></p>
+  <div class="ls-grid mt24">
+    <div class="ls-section">
+      <h3 style="color:var(--blue-600);display:flex;justify-content:between;align-items:center;width:100%">
+        <span style="background:var(--blue-50);padding:6px 10px;border-radius:8px;font-size:12px">📚 Library Management</span>
+        <button onclick="openLibDash()" class="dash-access-btn"><i class="fa-solid fa-chart-pie"></i> View Logs</button>
+      </h3>
+      <div class="ls-item">
+        <div class="ls-icon" style="background:#dbeafe"><i class="fa-solid fa-book" style="color:var(--blue-500)"></i></div>
+        <div><strong>Borrow Books</strong><span>Tap card to borrow books instantly</span></div>
+      </div>
+      <div class="ls-item">
+        <div class="ls-icon" style="background:#dcfce7"><i class="fa-solid fa-rotate-left" style="color:#16a34a"></i></div>
+        <div><strong>Return Books</strong><span>Easy return process, auto-updated</span></div>
+      </div>
+      <div class="ls-item">
+        <div class="ls-icon" style="background:#fef9c3"><i class="fa-solid fa-calendar" style="color:#ca8a04"></i></div>
+        <div><strong>Due Date Tracking</strong><span>Get due date reminders automatically</span></div>
+      </div>
+    </div>
+    <div class="ls-section">
+      <h3 style="color:#16a34a;display:flex;justify-content:between;align-items:center;width:100%">
+        <span style="background:#dcfce7;padding:6px 10px;border-radius:8px;font-size:12px">⚽ Sports Management</span>
+        <button onclick="openSportsDash()" class="dash-access-btn active-sports"><i class="fa-solid fa-chart-pie"></i> Inventory</button>
+      </h3>
+      <div class="ls-item">
+        <div class="ls-icon" style="background:#dcfce7"><i class="fa-solid fa-futbol" style="color:#16a34a"></i></div>
+        <div><strong>Borrow Equipment</strong><span>Check out equipment with one tap</span></div>
+      </div>
+      <div class="ls-item">
+        <div class="ls-icon" style="background:#dbeafe"><i class="fa-solid fa-undo" style="color:var(--blue-500)"></i></div>
+        <div><strong>Return Equipment</strong><span>Return with one tap, instant update</span></div>
+      </div>
+      <div class="ls-item">
+        <div class="ls-icon" style="background:#f3e8ff"><i class="fa-solid fa-clock-rotate-left" style="color:#9333ea"></i></div>
+        <div><strong>Borrowing History</strong><span>View full history anytime</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 9: SECURITY ── -->
+<section class="slide slide-9">
+  <span class="slide-label"><span class="dot"></span>Security</span>
+  <span class="slide-num">11 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Security You Can <span class="accent-word">Trust</span></h1>
+  <p class="sub mt8">Multiple layers. Maximum protection.</p>
+  <div class="sec-grid">
+    <div class="sec-card">
+      <div class="sec-icon" style="background:#dbeafe"><i class="fa-solid fa-wifi" style="color:var(--blue-500)"></i></div>
+      <h3>NFC Authentication</h3>
+      <p>Secure encrypted NFC communication for every transaction.</p>
+    </div>
+    <div class="sec-card">
+      <div class="sec-icon" style="background:#e0e7ff"><i class="fa-solid fa-hashtag" style="color:#6366f1"></i></div>
+      <h3>PIN Verification</h3>
+      <p>Additional PIN layer for high-value transactions and access.</p>
+    </div>
+    <div class="sec-card">
+      <div class="sec-icon" style="background:#dcfce7"><i class="fa-solid fa-fingerprint" style="color:#16a34a"></i></div>
+      <h3>Fingerprint Verification</h3>
+      <p>Biometric authentication for maximum security assurance.</p>
+    </div>
+    <div class="sec-card">
+      <div class="sec-icon" style="background:#fee2e2"><i class="fa-solid fa-lock" style="color:#dc2626"></i></div>
+      <h3>Lost Card Freeze</h3>
+      <p>Instantly block lost or stolen cards from the parent portal.</p>
+    </div>
+    <div class="sec-card">
+      <div class="sec-icon" style="background:#fef9c3"><i class="fa-solid fa-scroll" style="color:#ca8a04"></i></div>
+      <h3>Transaction Logging</h3>
+      <p>Every action is logged and traceable with full audit trails.</p>
+    </div>
+    <div class="sec-card">
+      <div class="sec-icon" style="background:#f3e8ff"><i class="fa-solid fa-shield-halved" style="color:#9333ea"></i></div>
+      <h3>Data Encryption</h3>
+      <p>All data encrypted and securely stored on hardened servers.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 12: LIVE DEMO ── -->
+<section class="slide slide-10">
+  <span class="slide-label"><span class="dot"></span>Live Demo</span>
+  <span class="slide-num">12 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Live <span class="accent-word">Demo</span></h1>
+  <p class="sub mt8">Experience the Magic of <span style="color:var(--blue-500);font-weight:700">One Tap.</span></p>
+  <div class="demo-mode-toggle">
+    <button id="modePayBtn" class="demo-mode-btn active-mode-pay" onclick="setDemoMode('payment')"><i class="fa-solid fa-wallet"></i> Canteen Payment</button>
+    <button id="modeAttBtn" class="demo-mode-btn" onclick="setDemoMode('attendance')"><i class="fa-solid fa-clock-rotate-left"></i> Attendance Scan</button>
+  </div>
+  <div class="demo-wrap">
+    <div class="col" style="gap:16px">
+      <div class="nfc-card" style="width:220px;height:140px">
+        <div class="card-top">
+          <div class="card-logo" style="font-size:11px">CAMPUS<span>PULSE</span></div>
+          <div class="card-chip" style="width:32px;height:22px"></div>
+        </div>
+        <div class="card-bottom" style="display:flex;justify-content:space-between;align-items:flex-end">
+          <div class="card-name" style="font-size:13px">STUDENT NAME</div>
+          <div style="width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center;font-size:10px"><i class="fa-solid fa-school"></i></div>
+        </div>
+      </div>
+      <button id="tapBtn" class="tap-zone" onclick="runDemo()">
+        <span class="tap-icon">📡</span>
+        <span class="tap-label">Tap Card</span>
+      </button>
+      <p id="demo-hint" style="font-size:12px;color:var(--gray-400);text-align:center">Click to simulate an NFC tap</p>
+    </div>
+    <div class="demo-results" id="demoResults">
+      <div class="demo-step" id="ds1"><i class="fa-solid fa-satellite-dish" style="color:var(--blue-500)"></i> Card Detected</div>
+      <div class="demo-step" id="ds2"><i class="fa-solid fa-calendar-check green"></i> Attendance Recorded</div>
+      <div class="demo-step" id="ds3"><i class="fa-solid fa-receipt green"></i> Transaction Logged</div>
+      <div class="demo-step" id="ds4"><i class="fa-solid fa-circle-check green"></i> Books &amp; equipment borrowed</div>
+      <div style="margin-top:20px;padding:14px 18px;background:var(--blue-50);border-radius:14px;font-size:13px;font-weight:600;color:var(--blue-600);text-align:center" id="demo-tagline">
+        ⚡ Fast. 🔒 Secure. ✨ Seamless.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 11: WALLET SIMULATION ── -->
+<section class="slide slide-11">
+  <span class="slide-label"><span class="dot"></span>Wallet Simulation</span>
+  <span class="slide-num">13 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Live Wallet <span class="accent-word">Simulation</span></h1>
+  <p class="sub mt8">See your balance update in real time.</p>
+  <div class="wallet-wrap">
+    <div class="wallet-card">
+      <div class="wallet-bal-label">Student Balance</div>
+      <div id="wallet-balance-display" class="wallet-bal"><sup>KES</sup> <span id="wallet-num">500</span></div>
+      <div class="wallet-tx" id="wallet-tx-list">
+        <div class="tx-item"><div class="tx-icon">💰</div><div class="tx-info"><strong>Top Up</strong><span>08:00 AM</span></div><div class="tx-amt pos">+KES 500</div></div>
+      </div>
+      <div class="wallet-feedback" id="wallet-feedback"></div>
+    </div>
+    <div class="wallet-actions">
+      <div style="font-size:13px;font-weight:700;color:var(--gray-600);margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em">Quick Actions</div>
+      <button class="wallet-btn primary" onclick="buyItem('Snack',50,'🍎')"><span>🍎 Buy Snack</span><span>KES 50</span></button>
+      <button class="wallet-btn secondary" onclick="buyItem('Lunch',120,'🍽️')"><span>🍽️ Buy Lunch</span><span>KES 120</span></button>
+      <button class="wallet-btn secondary" onclick="topUp()"><span>💳 Top Up Wallet</span><span>+KES 200</span></button>
+      <div style="margin-top:12px;padding:12px;background:var(--blue-50);border-radius:12px;font-size:12px;color:var(--blue-600);font-weight:500;display:flex;align-items:center;gap:8px"><i class="fa-solid fa-shield-halved"></i>Every transaction is logged and secure</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 12: CORE ADVANTAGES ── -->
+<section class="slide slide-12">
+  <span class="slide-label"><span class="dot"></span>Product Advantage</span>
+  <span class="slide-num">14 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Why Choose <span class="accent-word">CampusPulse</span>?</h1>
+  <p class="sub mt8">Our competitive advantages over current legacy and fragmented systems.</p>
+  
+  <div class="advantage-table-container mt24">
+    <table class="advantage-table">
+      <thead>
+        <tr>
+          <th>Feature Vector</th>
+          <th>Legacy Student IDs</th>
+          <th>Basic Canteen Cards</th>
+          <th class="highlight-col">CampusPulse Smart Ecosystem</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Unified Convergence</strong></td>
+          <td>Identity verification only</td>
+          <td>Siloed financial wallet only</td>
+          <td class="highlight-col">Identity + Access Control + Financial Ecosystem</td>
+        </tr>
+        <tr>
+          <td><strong>Parent Management Portal</strong></td>
+          <td>None</td>
+          <td>Minimal tracking mechanisms</td>
+          <td class="highlight-col">Expenditure constraints, tracking & balance top-up</td>
+        </tr>
+        <tr>
+          <td><strong>Security Audits</strong></td>
+          <td>High vulnerability to data leaks</td>
+          <td>No offline database protection</td>
+          <td class="highlight-col">Hardware cryptographic data encryption layers</td>
+        </tr>
+        <tr>
+          <td><strong>Operational Ecosystem</strong></td>
+          <td>Manual standalone ledgers</td>
+          <td>Cafeteria systems only</td>
+          <td class="highlight-col">Integrated Library, Sports, Attendance & Dining logs</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="advantages-stat-banner">
+    <i class="fa-solid fa-shield-halved" style="font-size:20px;flex-shrink:0"></i>
+    <span>10x fewer manual processes &nbsp;·&nbsp; 100% digital audit trail &nbsp;·&nbsp; Zero cash handling risk</span>
+  </div>
+</section>
+<section class="slide slide-13 dark-slide">
+  <span class="slide-label light"><span class="dot"></span>Future Vision</span>
+  <span class="slide-num light">15 / 17</span>
+  <h1 class="heading" style="font-size:2.6rem;color:#fff;text-align:center">Future <span style="color:var(--accent)">Vision</span></h1>
+  <p style="color:rgba(255,255,255,.6);font-size:15px;margin-top:8px;text-align:center">The Journey Has Just Begun.</p>
+  <div class="future-grid">
+    <div class="future-item"><i class="fa-solid fa-mobile-screen"></i><div><h4>Mobile App</h4><p>Smart app for students &amp; parents on iOS and Android</p></div></div>
+    <div class="future-item"><i class="fa-solid fa-brain"></i><div><h4>AI Analytics</h4><p>Predict trends and improve institutional decisions</p></div></div>
+    <div class="future-item"><i class="fa-solid fa-bus"></i><div><h4>Transport Payments</h4><p>Seamless transport fee payments via NFC</p></div></div>
+    <div class="future-item"><i class="fa-solid fa-calendar-days"></i><div><h4>Event Registration</h4><p>Easy registration for school events and activities</p></div></div>
+    <div class="future-item"><i class="fa-solid fa-certificate"></i><div><h4>Digital Certificates</h4><p>Secure digital student certificates and credentials</p></div></div>
+    <div class="future-item"><i class="fa-solid fa-truck-fast"></i><div><h4>Canteen Pre-Orders</h4><p>Pre-order meals to reduce queue time at break</p></div></div>
+  </div>
+</section>
+
+<!-- ── SLIDE 16: TRACTION & ROADMAP ── -->
+<section class="slide slide-16-traction" style="background:linear-gradient(145deg,#f0f7ff,#e0edff)">
+  <span class="slide-label"><span class="dot"></span>Traction &amp; Roadmap</span>
+  <span class="slide-num">16 / 17</span>
+  <h1 class="heading" style="font-size:2.4rem">Our <span class="accent-word">Journey So Far</span></h1>
+  <p class="sub mt8">From idea to live demo — built in one hackathon sprint.</p>
+
+  <div class="traction-timeline">
+    <div class="traction-line"></div>
+    <div class="traction-milestone">
+      <div class="traction-label-top">Week 1</div>
+      <div class="traction-dot"></div>
+      <div class="traction-label-bottom"><strong>Concept &amp; Research</strong><span>Identified the problem, surveyed school staff, defined feature set</span></div>
+    </div>
+    <div class="traction-milestone">
+      <div class="traction-label-top">Week 2</div>
+      <div class="traction-dot"></div>
+      <div class="traction-label-bottom"><strong>Prototype Built</strong><span>Designed UI, built interactive demo, wired up NFC simulation</span></div>
+    </div>
+    <div class="traction-milestone">
+      <div class="traction-label-top">Week 3</div>
+      <div class="traction-dot"></div>
+      <div class="traction-label-bottom"><strong>Tested with 12 Students</strong><span>User feedback collected, wallet and attendance flows validated</span></div>
+    </div>
+    <div class="traction-milestone traction-current">
+      <div class="traction-label-top" style="color:var(--blue-500);font-weight:800">Hackathon Day</div>
+      <div class="traction-dot traction-dot-active"></div>
+      <div class="traction-label-bottom"><strong style="color:var(--blue-600)">Live Demo</strong><span>Presenting the full CampusPulse ecosystem to judges</span></div>
+    </div>
+  </div>
+
+  <div style="margin-top:32px;text-align:center">
+    <div style="font-size:12px;font-weight:700;color:var(--gray-400);letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px">Next Steps</div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+      <div class="next-step-chip"><i class="fa-solid fa-school" style="color:var(--blue-500)"></i> Pilot with 1 School</div>
+      <div class="next-step-chip"><i class="fa-solid fa-mobile-screen" style="color:#8b5cf6"></i> Mobile App Development</div>
+      <div class="next-step-chip"><i class="fa-solid fa-handshake" style="color:#16a34a"></i> Investor Outreach</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 17: THANK YOU ── -->
+<section class="slide slide-14 dark-slide">
+  <span class="slide-num light">17 / 17</span>
+  <div class="thankyou-content">
+    <p style="font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:20px">CampusPulse Card</p>
+    <div class="big">One Card.<br><span>Unlimited</span><br>Possibilities.</div>
+    <p style="color:rgba(255,255,255,.5);font-size:16px;margin-top:20px;font-weight:500">Thank You! Let's build the future of smarter campuses.</p>
+    <div class="team-chips">
+      <div class="team-chip"><i class="fa-solid fa-user"></i>John Doe — Project Lead</div>
+      <div class="team-chip"><i class="fa-solid fa-user"></i>Jane Smith — Frontend</div>
+      <div class="team-chip"><i class="fa-solid fa-user"></i>Alex Wang — Backend</div>
+    </div>
+    <div class="year-badge">HACKATHON 2025 · TEAM INNOVATEX</div>
+  </div>
+</section>
+
+</div>
+
+<!-- NAV -->
+<div id="nav">
+  <button onclick="prev()" title="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+  <span id="slide-counter">1 / 17</span>
+  <button onclick="next()" title="Next"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<div id="keyhint"><kbd>←</kbd><kbd>→</kbd> to navigate</div>
+
+<!-- TEACHER MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <h2>📊 Teacher Dashboard</h2>
+    <div class="modal-stat"><span>Students Present</span><span class="val" style="color:#22c55e">38</span></div>
+    <div class="modal-stat"><span>Students Absent</span><span class="val" style="color:#dc2626">2</span></div>
+    <div class="modal-stat"><span>Attendance Rate</span><span class="val">95%</span></div>
+    <div class="modal-stat"><span>Books Borrowed</span><span class="val">17</span></div>
+    <button class="modal-close" onclick="closeDash()">Close Dashboard</button>
+  </div>
+</div>
+
+<!-- PARENT MODAL -->
+<div class="modal" id="parentModal">
+  <div class="modal-box">
+    <h2><i class="fa-solid fa-user-gear"></i> Parent Management Hub</h2>
+    <div class="modal-stat"><span>Linked Accounts</span><span class="val">1 (Active)</span></div>
+    <div class="modal-stat"><span>Current Wallet Balance</span><span class="val">KES 500.00</span></div>
+    <div class="modal-stat" style="flex-direction:column;align-items:flex-start;gap:8px">
+      <span>Adjust Daily Spending Limit:</span>
+      <div style="display:flex;align-items:center;gap:10px;width:100%">
+        <input type="range" id="limitRange" min="50" max="500" step="50" value="150" oninput="updateLimitValue(this.value)" style="flex:1">
+        <strong class="val" id="limitValDisplay">KES 150.00</strong>
+      </div>
+    </div>
+    <button class="modal-close" onclick="closeParentDash()" style="background:var(--blue-600)">Save Configuration</button>
+  </div>
+</div>
+
+<!-- LIBRARY MODAL -->
+<div class="modal" id="libraryModal">
+  <div class="modal-box">
+    <h2>📚 Library Admin Dashboard</h2>
+    <div class="modal-stat"><span>Total Cataloged Books</span><span class="val">4,250</span></div>
+    <div class="modal-stat"><span>Active Loans Today</span><span class="val" style="color:var(--blue-600)">42</span></div>
+    <div class="modal-stat"><span>Overdue Item Notices Sent</span><span class="val" style="color:#f59e0b">3</span></div>
+    <button class="modal-close" onclick="closeLibDash()">Exit Systems</button>
+  </div>
+</div>
+
+<!-- SPORTS MODAL -->
+<div class="modal" id="sportsModal">
+  <div class="modal-box">
+    <h2>⚽ Sports Inventory Control Dashboard</h2>
+    <div class="modal-stat"><span>Total Fleet Items Tracked</span><span class="val">380</span></div>
+    <div class="modal-stat"><span>Currently Disbursed Items</span><span class="val" style="color:var(--blue-600)">18</span></div>
+    <div class="modal-stat"><span>Unreturned Items Flagged</span><span class="val" style="color:#dc2626">1</span></div>
+    <button class="modal-close" onclick="closeSportsDash()" style="background:#16a34a">Exit Systems</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
